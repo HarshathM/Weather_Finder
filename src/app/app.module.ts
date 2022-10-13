@@ -11,10 +11,14 @@ import { ReactiveFormsModule } from '@angular/forms';
 import {MatButtonModule} from '@angular/material/button';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 import { HttpClientModule } from '@angular/common/http';
+import {MatSelectModule} from '@angular/material/select';
+import {MatTableModule} from '@angular/material/table';
+import {MatToolbarModule} from '@angular/material/toolbar';
 
 import { LoginComponent } from './login/login.component';
 import { ClimateComponent } from './climate/climate.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { WReportService } from './w-report.service';
 
 @NgModule({
   declarations: [
@@ -33,9 +37,12 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     ReactiveFormsModule,
     MatButtonModule,
     MatButtonToggleModule,
-    HttpClientModule
+    HttpClientModule,
+    MatSelectModule,
+    MatTableModule,
+    MatToolbarModule
   ],
-  providers: [],
+  providers: [WReportService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
