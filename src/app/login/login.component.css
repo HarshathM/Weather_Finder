@@ -1,0 +1,17 @@
+.entire-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    /* background-image: url('/assets/images/cloud-blue-sky.webp');
+    background-size: cover; */
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.mat-card{
+    background-color: aliceblue;
+    box-shadow: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}

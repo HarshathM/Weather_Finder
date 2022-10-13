@@ -14,7 +14,7 @@ declare const require: {
   };
 };
 
-// First, initialize the Angular testing environment.
+// Weather_Finder, initialize the Angular testing environment.
 getTestBed().initTestEnvironment(
   BrowserDynamicTestingModule,
   platformBrowserDynamicTesting(),
