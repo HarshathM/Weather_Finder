@@ -18,7 +18,6 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { LoginComponent } from './login/login.component';
 import { ClimateComponent } from './climate/climate.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
-import { WReportService } from './w-report.service';
 
 @NgModule({
   declarations: [
@@ -42,7 +41,7 @@ import { WReportService } from './w-report.service';
     MatTableModule,
     MatToolbarModule
   ],
-  providers: [WReportService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

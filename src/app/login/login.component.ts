@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  o_email="HP@gmail.com";
+  o_email="admin@mail.com";
   o_password = '333';
   invalid= true;
   constructor(private route:Router) {
